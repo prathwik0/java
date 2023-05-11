@@ -1,7 +1,5 @@
 package bank;
 
-import java.util.*;
-
 class Bank
 {
    String name, type;
@@ -45,43 +43,5 @@ class Bank
    {
        System.out.println("\nName : " + name);
        System.out.println("Balance : " + balance_amount);
-   }
-}
-
-public class BankAccount
-{
-   public static void main(String args[])
-   {
-       Scanner Sc = new Scanner(System.in);
-       String name, type;
-       long acc;
-       double balance;
-       
-       System.out.print("Enter Name : ");
-       name = Sc.nextLine();
-       
-       System.out.print("Enter Type : ");
-       type = Sc.nextLine();
-       
-       System.out.print("Enter Account number : ");
-       acc = Sc.nextLong();
-       
-       System.out.print("Enter Balance : ");
-       balance = Sc.nextDouble();
-       
-       Bank bank = new Bank(name, acc, type, balance);
-       bank.display();
-       
-       System.out.print("\nEnter amount to be deposited : ");
-       double d = Sc.nextDouble();
-       bank.deposit(d);
-       bank.display();
-       
-       System.out.print("\nEnter amount to be withdrawn : ");
-       double w = Sc.nextDouble();
-       bank.withdraw(w);
-       bank.display();
-       
-       Sc.close();
    }
 }

@@ -1,0 +1,6 @@
+{
+    "code-runner.runInTerminal": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "java.format.onType.enabled": false
+}

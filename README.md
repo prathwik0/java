@@ -1,21 +1,22 @@
 # Some JAVA Programs
 
 ### Week 1
-1. (R)[Sorting Command Line Args](Week1/SortCmdLineArgs.java)
-1. (R)[Roots of Quadratic Equation](Week1/QuadraticEquation.java)
-1. [Debug Prime Number Problem](Week1/Debug.java)
+1. [Debug - Prime Number or Not](Week1/Debug.java)
+1. (R)[Finding Roots of Quadratic Equation](Week1/QuadraticEquation.java)
+1. (R)[Sorting Array of Command Line Arguments](Week1/SortCmdLineArgs.java)
 1. [Fibonacci](Week1/Fibonacci.java)
 
 ### Week 2
-1. [Matrix Multiplication](2023_05_04/MatrixMultiplication.java)
-1. (R)[Bank Account Class](Week2/BankAccount.java)
+1. [Matrix Multiplication](Week2/MatrixMultiplication.java)
+1. [Check for Palindrome](Week2/CheckPalindrome.java)
+1. (R)[Class - Bank Account](Week2/BankAccount.java)
 1. (R)[Method Overriding](Week2/MethodOverriding.java)
-1. [Check for Palindrome](2023_05_04/ChkPalindrome.java)
+
 
 ### Week 3
-1. (R)[Abstract Class Shape](2023_05_11/AbstractClass.java)
-1. (R)[Class Student](2023_04_20/QuadraticEqn.java)
-1. [Interface Shape]([label](2023_05_18/synch.java))
+1. (R)[Abstract Class - Shape](Week3/AbstractClassShape.java)
+1. (R)[Derived Classes - Student](Week3/StudentResult.java)
+1. [Interface - Shape](Week3/InterfaceShape.java)
 
 ### Week 4 - Exceptions
 1. (R)[Student Class - Array Out of Bounds Exception](2023_05_18/Exception.java)

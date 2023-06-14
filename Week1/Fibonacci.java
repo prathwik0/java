@@ -9,14 +9,21 @@ import java.util.Random;
 
 class Fibonacci {
     public static void main(String args[]) {
-        int n, n1;
+        int n, n1, n2;
 
-        Random as = new Random();
-        n = as.nextInt(20);
+        Random rand = new Random();
+        n = rand.nextInt(20);
 
-        fib1 as1 = new fib1();
-        n1 = as1.fibc(n);
-        System.out.println("The " + n + "th fibonacci number is " + n1);
+        fib1 ans1 = new fib1();
+        n1 = ans1.fibonacci(n);
+        System.out.println();
+
+        fib2 ans2 = new fib2();
+        n2 = ans2.fibonacci(n);
+        System.out.println();
+
+        System.out.println("The " + n + "th fibonacci number (iteration) is " + n1);
+        System.out.println("The " + n + "th fibonacci number (recursion) is " + n2);
     }
 }
 
@@ -25,15 +32,38 @@ class fib1 {
     int a = 0, b = 1;
     int fib;
 
-    int fibc(int n) {
+    int fibonacci(int n) {
+
         System.out.print(a + " " + b + " ");
+
         for (int i = 1; i <= n - 2; i++) {
             fib = a + b;
-            System.out.print(fib + " ");
             a = b;
             b = fib;
+            System.out.print(fib + " ");
         }
-        System.out.println();
+
+        return fib;
+    }
+}
+
+
+class fib2 {
+    int a = 0, b = 1;
+    int fib;
+
+    int fibonacci(int n) {
+
+        if (n == 0)
+            return 0;
+        if (n == 1)
+            return 0;
+        if (n == 2)
+            return 1;
+
+        fib = fibonacci(n - 1) + fibonacci(n - 2);
+        System.out.print(fib + " ");
+
         return fib;
     }
 }

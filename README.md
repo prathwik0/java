@@ -8,8 +8,8 @@
 
 ### Week 2
 1. [Matrix Multiplication](2023_05_04/MatrixMultiplication.java)
-1. (R)[Bank Account Class](2023_05_04/BankAccount.java)
-1. (R)[Method Overriding]()
+1. (R)[Bank Account Class](Week2/BankAccount.java)
+1. (R)[Method Overriding](Week2/MethodOverriding.java)
 1. [Check for Palindrome](2023_05_04/ChkPalindrome.java)
 
 ### Week 3

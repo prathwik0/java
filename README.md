@@ -1,7 +1,7 @@
 # Some JAVA Programs
 
 ### Week 1
-1. (R)[Sorting Command Line Args](Week1/Week1/SortCmdLineArgs.java)
+1. (R)[Sorting Command Line Args](Week1/SortCmdLineArgs.java)
 1. (R)[Roots of Quadratic Equation](Week1/QuadraticEquation.java)
 1. [Debug Prime Number Problem](Week1/Debug.java)
 1. [Fibonacci](Week1/Fibonacci.java)

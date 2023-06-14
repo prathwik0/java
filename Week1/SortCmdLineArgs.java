@@ -1,17 +1,16 @@
-public class CmdLineArgs {
-    // @param args command line arguments
+/* Read array of numbers through command line and sort in ascending order. */
+
+public class SortCmdLineArgs {
     public static void main(String[] args) {
-        // datatype[] arrayRefVar new dataType[arraySize]
         int[] a = new int[10];
 
         for (int i = 0; i < args.length; i++) {
             a[i] = Integer.parseInt(args[i]);
         }
 
-        System.out.println("array before sorting");
-        for (int i = 0; i < args.length; i++) {
+        System.out.println("array before sorting: ");
+        for (int i = 0; i < args.length; i++)
             System.out.print(a[i] + " ");
-        }
         System.out.println();
 
         for (int i = 0; i < args.length; i++) {
@@ -24,9 +23,8 @@ public class CmdLineArgs {
             }
         }
 
-        System.out.println("array after sorting");
-        for (int i = 0; i < args.length; i++) {
+        System.out.println("array after sorting: ");
+        for (int i = 0; i < args.length; i++)
             System.out.print(a[i] + " ");
-        }
     }
 }

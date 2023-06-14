@@ -1,9 +1,10 @@
 # Some JAVA Programs
 
 ### Week 1
-1. (R)[Sorting Command Line Args](2023_04_20/CmdLineArgs.java)
-1. (R)[Roots of Quadratic Equation](2023_04_20/QuadraticEqn.java)
-1. [Debug Prime Number Problem](2023_04_20/Debug.java)
+1. (R)[Sorting Command Line Args](Week1/CmdLineArguments.java)
+1. (R)[Roots of Quadratic Equation](Week1/QuadraticEquation.java)
+1. [Debug Prime Number Problem](Week1/Debug.java)
+1. [Fibonacci](Week1/Fibonacci.java)
 
 ### Week 2
 1. [Matrix Multiplication](2023_05_04/MatrixMultiplication.java)

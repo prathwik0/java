@@ -1,40 +1,42 @@
 /*
- * To create an abstract class named shape that contains two integers and an
+ * To create an abstract class named Shape that contains two integers and an
  * empty method named printArea. Provide three classes named Rectangle, Triangle
  * and Circle subclass that each one of the classes extends the Class Shape.
  * Each one of the classes contains only the method printArea() that prints the
  * area of Shape.
  */
 
-abstract class shape {
+package AbstractClass;
+
+abstract class Shape {
     public int x, y;
 
     public abstract void printArea();
 }
 
 
-class Rectangle extends shape {
+class Rectangle extends Shape {
     public void printArea() {
         System.out.println("Area of Rectangle is " + x * y);
     }
 }
 
 
-class Triangle extends shape {
+class Triangle extends Shape {
     public void printArea() {
         System.out.println("Area of Triangle is " + (x * y) / 2);
     }
 }
 
 
-class Circle extends shape {
+class Circle extends Shape {
     public void printArea() {
         System.out.println("Area of Circle is " + (22 * x * x) / 7);
     }
 }
 
 
-public class AbstractClassShape {
+public class Main {
     public static void main(String[] args) {
         Rectangle r = new Rectangle();
         r.x = 10;

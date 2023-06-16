@@ -1,6 +1,0 @@
-### Week 2
-
-1. Write a java program to multiply two given matrices.
-2. Design a class to represent a bank account. Which contains account number, name of the depositor, type of the account, balance amount in the account. Use constructor to assign initial values, use member functions to Deposit an amount, to Withdraw amount after checking balance, to display name and balance.
-3. Write a java program to implement method overriding.
-4. Write a java program to check whether a given string is palindrome.

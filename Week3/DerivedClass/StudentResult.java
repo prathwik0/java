@@ -9,6 +9,8 @@
  * class.
  */
 
+package DerivedClass;
+
 import java.util.Scanner;
 
 class Student {

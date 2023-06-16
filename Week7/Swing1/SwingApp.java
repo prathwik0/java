@@ -59,6 +59,6 @@ class A extends JFrame implements ActionListener {
 
 public class SwingApp {
 	public static void main(String[] args) {
-		A hello = new A();
+		new A();
 	}
 }

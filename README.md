@@ -23,7 +23,7 @@
 1. (R)[User Defined Exceptions](Week4/UserDefinedExceptions/BankWithdraw.java)
 
 ### Week 5 - Threads
-1. [Implement Thread Class methods](Week5/Thread/Example.java)
+1. (R)[Implement Thread Class methods](Week5/Thread/Example.java)
 1. (R)[Multithreading in JAVA](Week5/MultipleThreads/MultipleThread.java)
 1. (R)[Producer Consumer Problem](Week5/ProducerConsumer/ProducerConsumer.java)
 
@@ -33,5 +33,6 @@
 1. [Show number of chars, lines and words]
 
 ### Week 7 - User Interfaces
-1. [Division Calculator](Week7/Swing1/SwingApp.java)
-1. [Traffic Lights](Week7/Swing2/TrafficLights.java)
+1. (R)[Division Calculator](Week7/Swing1/SwingApp.java)
+1. (R)[Traffic Lights](Week7/Swing2/TrafficLights.java)
+1. (R)[Big Swing - List View + Alert](Week7/Swing3/BigSwing.java)

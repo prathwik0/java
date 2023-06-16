@@ -1,3 +1,4 @@
+package Interface;
 /*
  * Write a java program to create an interface named Shape that contains empty
  * method named Area () and perimeter(). Provide two classes named Triangle and
@@ -63,7 +64,7 @@ class Circle implements Shape {
 
 
 // Main class
-public class InterfaceShape {
+public class Main {
     public static void main(String[] args) {
 
         Triangle triangle = new Triangle(5, 4, 3, 4, 5);

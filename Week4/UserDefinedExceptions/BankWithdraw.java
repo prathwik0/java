@@ -25,7 +25,7 @@ public class BankWithdraw {
 
     public static void main(String[] args) throws MinimumAccountBalance {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter amount to withdrawal");
+        System.out.println("Enter amount for withdrawal");
         int n = scan.nextInt();
         scan.close();
 

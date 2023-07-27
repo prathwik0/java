@@ -24,6 +24,7 @@ class Another extends ModOve {
     }
 
     // display k – this overrides show() in A
+    @Override
     void show() {
         super.show();
         System.out.println("k: " + k);

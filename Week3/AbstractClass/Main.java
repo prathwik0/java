@@ -38,7 +38,7 @@ class Circle extends Shape {
 
 public class Main {
     public static void main(String[] args) {
-        Rectangle r = new Rectangle();
+        Shape r = new Rectangle();
         r.x = 10;
         r.y = 20;
         r.printArea();
